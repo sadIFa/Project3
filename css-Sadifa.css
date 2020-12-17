@@ -1,0 +1,219 @@
+body{
+	background-color: #E6E6FA;
+	font-family: Verdana;
+	line-height: 1.6em;
+
+
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+}
+
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	color:red;
+}
+.mypicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+#picture h1{
+	text-align: center;
+}
+
+#info h2{
+	text-align: center;
+}
+#info h4{
+	margin: 5px 500px;
+}
+#info p{
+	margin: 5px 500px;
+}
+#info a{
+	margin: 5px 500px;
+}
+#skills{
+	border: 3px #2F4F4F dotted;
+	padding: 10px;
+	margin: 10px 0; 
+	border-radius: 10px;
+}
+
+#skills h2{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	font-size:25px;
+}
+
+#skills h4{
+	margin: 5px 500px;
+}
+
+#languages{
+	border: 3px #2F4F4F dotted;
+	padding: 10px;
+	margin: 10px 0; 
+	border-radius: 10px;
+}
+
+#languages h2{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	font-size:25px;
+}
+
+#languages h4{
+	margin: 5px 575px;
+}
+
+#profile{
+	border: 3px #2F4F4F dotted;
+	padding: 10px;
+	margin: 10px 0; 
+	border-radius: 10px;
+}
+
+#profile h2{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	font-size:25px;
+}
+
+#profile p{
+	font-style: italic;
+	font-size: 17px;
+	margin: 25px 20px;
+}
+
+#education{
+	border: 3px #2F4F4F dotted;
+	padding: 10px;
+	margin: 10px 0; 
+	border-radius: 10px;
+}
+
+#education h2{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	font-size:25px;
+}
+
+#education h4{
+	margin:10 200;
+	font-size:20px;
+}
+
+#education p{
+	margin:5 200;
+	font-size: 15px;
+}
+
+#education li{
+	margin:5 300;
+}
+
+#workexperience{
+	border: 3px #2F4F4F dotted;
+	padding: 10px;
+	margin: 10px 0; 
+	border-radius: 10px;
+}
+
+#workexperience h2{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	font-size:25px;
+}
+
+#workexperience h4{
+	margin:10 150;
+	font-size:20px;
+}
+
+#workexperience p{
+	margin:5 150;
+	font-size: 15px;
+}
+
+#workexperience li{
+	margin:5 300;
+}
+
+.contact{
+  border: 3px #2F4F4F dotted;
+  padding: 10px;
+  margin: 50px 150; 
+  border-radius: 10px;
+  text-align: center; 
+}
+
+.contact h2{
+	text-align: center;
+
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	font-size:25px;
+}
+
+.contact .input_field{
+  margin-bottom: 10px;
+}
+
+.contact .input_field input[type="text"],
+.contact textarea{
+  width: 250px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.contact textarea{
+  width: 250px;
+  height: 100px;
+}
+
+.contact .button input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  background: #5F9EA0;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #8B0000;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
